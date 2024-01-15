@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>data.json</file>
+        <file>ListView.qml</file>
+        <file>TapHandler.qml</file>
+    </qresource>
+</RCC>
