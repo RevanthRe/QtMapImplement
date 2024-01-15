@@ -1,8 +1,8 @@
-Map-based project filtering 
-Overview
+# Map-based project filtering
+## Overview
 This is a Map Application written in C++ with the Qt framework and QML. The application loads a JSON file containing project data and displays it in a ListView alongside a map. The user can interact with the map, click on items in the ListView, and perform searches. The map highlights selected locations and displays a circle around them.
 
-Components
+## Components
 JsonDataReader (JsonDataReader.h, JsonDataReader.cpp):
 
 A class responsible for reading and parsing a JSON file containing project data.
@@ -13,7 +13,7 @@ Subclass of QAbstractListModel to manage the data for the ListView in QML.
 Handles filtering and highlighting of projects based on user input.
 Provides signals for updating the map, removing map circles, and highlighting locations.
 Exposes data to QML and manages the interaction between QML and C++.
-main.qml:
+#main.qml:
 
 The main QML file that defines the user interface.
 Contains a map, ListView, and search functionality.
@@ -41,24 +41,13 @@ Map Circle (main.qml):
 Adds a circle to the map when a project is selected, with specified radius and styling.
 Updates map center and zoom level when a project is selected.
 Running the Application
-Dependencies:
+# Dependencies:
 
 Qt 5.15 or later.
-Build:
+## Build:
 
 Open the project file in Qt Creator or use the provided build system.
 Ensure the necessary Qt modules are linked.
-Run:
+## Run:
 
 Run the application, and the map interface should appear.
-Interaction:
-
-Click on the map to trigger handleMapClick in C++.
-Type in the search field to filter projects.
-Click on projects in the ListView to highlight them on the map.
-Notes
-Ensure that the JSON file path (:/data.json) is correct and that the file is formatted correctly.
-Adjust the styling and layout in QML based on your preferences.
-Contributors
-The initial version of this application was created by [Your Name].
-Feel free to contribute or make suggestions to enhance the application.
