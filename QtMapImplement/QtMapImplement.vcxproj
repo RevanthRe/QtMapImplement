@@ -103,9 +103,6 @@
     <QtMoc Include="projectmodel.h" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="LocIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
     <QtRcc Include="qml.qrc" />
   </ItemGroup>
   <ItemGroup>

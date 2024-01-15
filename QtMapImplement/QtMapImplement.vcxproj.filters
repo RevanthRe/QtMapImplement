@@ -42,11 +42,6 @@
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="LocIcon.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-  </ItemGroup>
-  <ItemGroup>
     <QtRcc Include="qml.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>

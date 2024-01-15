@@ -24,7 +24,7 @@ int main(int argc, char* argv[]) {
 
     QQmlApplicationEngine engine;
 
-    // Set ownership to QML
+    // Set ownershiP to QML
     engine.rootContext()->setContextProperty("projectModel", projectModel);
     engine.setObjectOwnership(projectModel, QQmlEngine::JavaScriptOwnership);
 

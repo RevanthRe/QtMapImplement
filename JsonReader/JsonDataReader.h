@@ -1,4 +1,4 @@
-// JsonDataReader.
+// JsonDataReader.h
 #pragma once
 #include <QObject>
 #include <QList>
@@ -8,7 +8,7 @@ class JsonDataReader : public QObject {
     Q_OBJECT
 
 public:
-     JsonDataReader(QObject* parent = nullptr);
+    JsonDataReader(QObject* parent = nullptr);
 
     QList<QVariantMap> readJsonFile(const QString& filePath);
 

@@ -1,4 +1,4 @@
-// JsonDataReader.cpp
+// JsonDataReader.cp
 #include "JsonDataReader.h"
 #include <QFile>
 #include <QJsonArray>

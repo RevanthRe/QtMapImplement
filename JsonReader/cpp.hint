@@ -1,0 +1,2 @@
+#define JSONREADER_API __declspec(dllexport)
+#define JSONREADER_API __declspec(dllimport)
