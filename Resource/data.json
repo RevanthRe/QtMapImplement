@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Brazil",
+    "startDate": "2022-01-01",
+    "latitude": -15.793889,
+    "longitude": -47.882778
+  },
+  {
+    "name": "Maldives",
+    "startDate": "2020-08-01",
+    "latitude": 3.2028,
+    "longitude": 73.2207
+  },
+  {
+    "name": "Hyderabad",
+    "startDate": "2021-07-01",
+    "latitude": 17.4065,
+    "longitude": 78.4772
+  },
+  {
+    "name": "Pune",
+    "startDate": "2022-04-01",
+    "latitude": 18.5204,
+    "longitude": 73.8567
+  },
+  {
+    "name": "Dubai",
+    "startDate": "2024-02-01",
+    "latitude": 25.2048,
+    "longitude": 55.2708
+  },
+  {
+    "name": "New York",
+    "startDate": "2013-05-01",
+    "latitude": 40.7128,
+    "longitude": -74.0060
+  },
+  {
+    "name": "Gousabad",
+    "startDate": "2020-04-01",
+    "latitude": 17.5924503,
+    "longitude": 77.4644607
+  }
+]
